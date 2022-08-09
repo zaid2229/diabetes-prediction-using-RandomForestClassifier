@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ='en' dir = 'ltr'>
+    <body>
+        <div class = 'content'>
+            <h1 align='center'>Diabetes prediction using RandomForestClassifier</h1>
+            <div class="form">
+                <form action="/predict" method="post">
+
+                    <input type="number" name="num_preg" id ='num_preg' placeholder="num_preg">
+                    <input type="number" name="glucose_conc" id ='glucose_conc' placeholder="glucose_conc">
+                    <input type="number" name="diastolic_bp" id ='diastolic_bp' placeholder="diastolic_bp">
+                    <input type="number" name="thickness" id ='thickness' placeholder="thickness">
+                    <input type="number" name="insulin" id ='insulin' placeholder="insulin">
+                    <input type="float" name="bmi" id ='bmi' placeholder="bmi">
+                    <input type="float" name="diab_pred" id ='diab_pred' placeholder="diab_pred">
+                    <input type="number" name="age" id ='age' placeholder="age">
+                    <input type="float" name="skin" id ='skin' placeholder="skin">
+                    
+
+                    <input type="submit" value = 'predict'>
+
+                </form>
+            </div>
+
+
+
+        </div>
+    </body>
